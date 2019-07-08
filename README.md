@@ -2,11 +2,11 @@
 A speech recognition chat-bot with face recognition and some home automation skills using python and arduino ide software (arduino wifi module esp8266)
 
 requirement for this project:
-1. anaconda software with installed spyder and inbuilt vscode(sufficient for chatbot, face recognition and task automation of pc)
+1. anaconda software with installed spyder and installed vscode given in anaconda navigator(sufficient for chatbot, face recognition and task automation of pc)
 2. require only catbot.py program file
 
 home automation:
-1. along with above
+1. all above requirements
 2. arduino wifi module(wemos d1 esp8266)
 3. relay
 4. arduino program file
@@ -28,13 +28,12 @@ install following libraries in spyder using anaconda prompt:
 
 some might be pre installed
 
-after installing all the above  just run the chatbot.py file from either spyder or anaconda prompt.The chatbot.py file could take some time in response as it is dependent on your network speed for speech to text cnversion and then again text to speed conversion.if want some quic response just run textchatbot.py, it takes text input rather than speech.
+after installing all the above  just run the chatbot.py file from either spyder or anaconda prompt.The chatbot.py file could take some time in response as it is dependent on your network speed for speech to text cnversion and then again text to speed conversion.if want some quick response just run textchatbot.py, it takes text input rather than speech.
 
 now for home automation purpose i am using wifi module(wemos d1 esp8266) whose program is given in arduino program file. just upload that program into your board and join the wire from D2 pin(in my case) to your relay input pin.This is all the hardware wiring part.
 
 After all this just uncomment all the url code line like(#url_on = 'http://192.168.43.254/gpio/1', 
 #url_off = 'http://192.168.43.254/gpio/0', 
-#response, content = http.request(url_off, 'GET')) from your chatbot.py or textchatbot.py file and also don't forget to update ssid and password of the arduino program file as per common hotspot connecting both pc and wifi module, thats all for this repository.
+#response, content = http.request(url_off, 'GET')) from your chatbot.py or textchatbot.py file and also don't forget to update ssid and password of the arduino program file as per common hotspot connecting both pc and wifi module.
 
-hope for good, if there is any question you can comment i will try to respond as soon as possible
 
