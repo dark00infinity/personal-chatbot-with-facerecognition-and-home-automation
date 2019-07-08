@@ -12,17 +12,23 @@ home automation:
 4. arduino program file
 
 how to use:
-1. install following libraries in spyder using anaconda prompt:
-a. pip install https://pypi.python.org/packages/da/06/bd3e241c4eb0a662914b3b4875fc52dd176a9db0d4a2c915ac2ad8800e9e/dlib-19.7.0-cp36-cp36m-  win_amd64.whl#md5=b7330a5b2d46420343fbed5df69e6a3f
-b. pip install opencv-contrib-python   
-c. pip install pyttsx3
-d. pip install webbrowser
-e. pip install smtplib
-f. pip install SpeechRecognition
-g. pip install pyaudio
-h. pip install wikipedia
-i. pip install httplib2
-j. pip install cmake
-k. pip install face_recognition
+
+install following libraries in spyder using anaconda prompt:
+1. pip install https://pypi.python.org/packages/da/06/bd3e241c4eb0a662914b3b4875fc52dd176a9db0d4a2c915ac2ad8800e9e/dlib-19.7.0-cp36-cp36m-  win_amd64.whl#md5=b7330a5b2d46420343fbed5df69e6a3f
+2. pip install opencv-contrib-python   
+3. pip install pyttsx3
+4. pip install webbrowser
+5. pip install smtplib
+6. pip install SpeechRecognition
+7. pip install pyaudio
+8. pip install wikipedia
+9. pip install httplib2
+10. pip install cmake
+11. pip install face_recognition
 
 some might be pre installed
+
+after installing all the above  just run the chatbot.py file from either spyder or anaconda prompt.The chatbot.py file could take some time in response as it is dependent on your network speed for speech to text cnversion and then again text to speed conversion.if want some quic response just run textchatbot.py, it takes text input rather than speech.
+
+hope for good, if there is any question you can comment i will try to respond as soon as possible
+
