@@ -28,7 +28,7 @@ A speech recognition chat-bot with face recognition and some home automation ski
 
 > some might be pre installed
 
-###Setup:
+### Setup:
 
 after installing all the above  just run the chatbot.py file from either spyder or anaconda prompt.The chatbot.py file could take some time in response as it is dependent on your network speed for speech to text cnversion and then again text to speed conversion.if want some quick response just run textchatbot.py, it takes text input rather than speech.
 
