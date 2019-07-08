@@ -32,9 +32,9 @@ after installing all the above  just run the chatbot.py file from either spyder 
 
 now for home automation purpose i am using wifi module(esp8266) whose program is give in arduino program file. just upload that program into your board and join the wire from D2 pin(in my case) to your relay input pin.This is all the hardware wiring part.
 
-After all this just uncomment all the url code line like(#url_on = 'http://192.168.43.254/gpio/1'
-#url_off = 'http://192.168.43.254/gpio/0'
-#response, content = http.request(url_off, 'GET')) from your chatbot
+After all this just uncomment all the url code line like(#url_on = 'http://192.168.43.254/gpio/1', 
+#url_off = 'http://192.168.43.254/gpio/0', 
+#response, content = http.request(url_off, 'GET')) from your chatbot.py or textchatbot.py file and also don't forget to update ssid and password of the arduino program file as per common hotspot connecting both pc and wifi module, thats all for this repository.
 
 hope for good, if there is any question you can comment i will try to respond as soon as possible
 
